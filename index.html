@@ -656,7 +656,6 @@
     .stat-num { font-size: 28px; }
     .stat-label { font-size: 11px; letter-spacing: 2px; }
     footer { padding: 28px 20px; flex-direction: column; text-align: center; }
-    .testimonials-section { padding: 56px 20px; }
     .area-strip { padding: 18px 20px; }
     .cta-banner { padding: 50px 20px; }
     .contact-form input,
@@ -674,14 +673,13 @@
     .hero-logo-ring::before { width: 210px; height: 210px; }
     .hero-logo-ring::after { width: 180px; height: 180px; }
     .services-grid { grid-template-columns: 1fr; }
-    .testimonials-grid { grid-template-columns: 1fr; }
     .stats-strip { flex-direction: column; align-items: center; gap: 12px; }
     .section h2 { font-size: clamp(28px, 7vw, 36px); margin-bottom: 32px; }
     .about-text h2 { font-size: clamp(28px, 7vw, 36px); }
     .area-strip { flex-direction: column; text-align: center; }
     .area-tags { justify-content: center; }
     .section, .about-section, .contact-section,
-    .why-section, .testimonials-section { padding: 44px 16px; }
+    .why-section { padding: 44px 16px; }
     .cta-banner { padding: 44px 16px; }
     footer { padding: 24px 16px; }
   }
@@ -711,52 +709,6 @@
   .reveal-delay-3 { transition-delay: 0.3s; }
   .reveal-delay-4 { transition-delay: 0.4s; }
 
-  /* TESTIMONIALS */
-  .testimonials-section {
-    padding: 88px 56px;
-    background: #111316;
-  }
-  .testimonials-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-    gap: 20px;
-    margin-top: 0;
-  }
-  .testimonial-card {
-    background: var(--mid);
-    padding: 32px 28px;
-    border-left: 4px solid var(--red);
-    position: relative;
-  }
-  .testimonial-quote {
-    font-size: 48px;
-    color: var(--red);
-    font-family: 'Black Han Sans', sans-serif;
-    line-height: 0.8;
-    margin-bottom: 12px;
-    opacity: 0.6;
-  }
-  .testimonial-text {
-    font-size: 15px;
-    line-height: 1.75;
-    color: var(--light);
-    opacity: 0.85;
-    margin-bottom: 20px;
-    font-style: italic;
-  }
-  .testimonial-author {
-    font-family: 'Barlow Condensed', sans-serif;
-    font-size: 13px;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-    color: var(--red);
-  }
-  .testimonial-role {
-    font-size: 12px;
-    opacity: 0.5;
-    margin-top: 2px;
-  }
-  .stars { color: #f5b800; font-size: 14px; margin-bottom: 10px; }
 
   /* SERVICE AREA MAP STRIP */
   .area-strip {
@@ -1004,34 +956,6 @@
     </div>
   </section>
 
-  <!-- TESTIMONIALS -->
-  <section class="testimonials-section" id="testimonials">
-    <div class="section-label reveal">What Clients Say</div>
-    <h2 class="reveal reveal-delay-1" style="margin-bottom:40px">Trusted on Every Job Site</h2>
-    <div class="testimonials-grid">
-      <div class="testimonial-card reveal reveal-delay-1">
-        <div class="testimonial-quote">"</div>
-        <div class="stars">★★★★★</div>
-        <p class="testimonial-text">Fermin and his crew showed up on time, got the dirt moved fast, and didn't leave a mess. I've used bigger companies and they don't come close.</p>
-        <div class="testimonial-author">Mike R.</div>
-        <div class="testimonial-role">General Contractor, San Antonio</div>
-      </div>
-      <div class="testimonial-card reveal reveal-delay-2">
-        <div class="testimonial-quote">"</div>
-        <div class="stars">★★★★★</div>
-        <p class="testimonial-text">Called them last minute for a demo haul and they made it happen same day. That kind of hustle is hard to find. Won't use anyone else now.</p>
-        <div class="testimonial-author">Carlos V.</div>
-        <div class="testimonial-role">Site Supervisor, Schertz TX</div>
-      </div>
-      <div class="testimonial-card reveal reveal-delay-3">
-        <div class="testimonial-quote">"</div>
-        <div class="stars">★★★★★</div>
-        <p class="testimonial-text">Great pricing, no games, no hidden fees. They quoted me a fair number and stuck to it. That's rare these days. Highly recommend.</p>
-        <div class="testimonial-author">Javier M.</div>
-        <div class="testimonial-role">Homebuilder, New Braunfels</div>
-      </div>
-    </div>
-  </section>
 
   <!-- CTA BANNER -->
   <section class="cta-banner">
